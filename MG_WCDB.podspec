@@ -1,5 +1,5 @@
 Pod::Spec.new do |wcdb|
-  wcdb.name         = 'MG_WCDB'
+  wcdb.name         = 'WCDB'
   wcdb.summary      = 'WCDB is a cross-platform database framework developed by WeChat.'
   wcdb.version      = '1.0.7.5'
   wcdb.description  = <<-DESC
@@ -15,7 +15,7 @@ Pod::Spec.new do |wcdb|
   wcdb.ios.deployment_target = "7.0"
   wcdb.osx.deployment_target = "10.9"
   wcdb.watchos.deployment_target = "2.0"
-  wcdb.tvos.deployment_target = "9.0"
+  # wcdb.tvos.deployment_target = "9.0"
   wcdb.source       = { :git => "https://github.com/freezy7/WCDB_Framework.git", :tag => "v1.0.7.5" }
 
   # wcdb.public_header_files = "objc/WCDB/WCDB.h", "objc/WCDB/**/*.{h,hpp}"
