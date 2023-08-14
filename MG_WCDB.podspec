@@ -13,7 +13,7 @@ Pod::Spec.new do |wcdb|
   wcdb.author             = { "sanhuazhang" => "sanhuazhang@tencent.com" }
 
   wcdb.ios.deployment_target = "12.0"
-  wcdb.osx.deployment_target = "10.13"
+  # wcdb.osx.deployment_target = "10.13"
   # wcdb.watchos.deployment_target = "2.0"
   # wcdb.tvos.deployment_target = "9.0"
   wcdb.source       = { :git => "https://github.com/freezy7/WCDB_Framework.git", :tag => "v1.0.7.5.1" }
